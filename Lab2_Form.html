@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Contact Form for Lab 2 Elise Ferguson</title>
+        <style>
+            body{
+                background-color: lightsteelblue;
+                font-family:monospace;
+            }
+
+            input{
+                background-color:whitesmoke;
+                color:black;
+            
+            }
+
+            .marginTextBoxes{
+                margin-left: 10px;
+                font-size: 20px;
+            }
+
+            input[type=submit]{ 
+                background-color:rgb(51, 95, 146);
+                color: whitesmoke;
+                margin-left: 100px
+            }
+
+            input[type=submit]:hover {
+                background-color:rgb(28, 55, 86);
+                color: whitesmoke;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>INST 377 - Lab 2 - Contact Me </h1>
+        <form name="Contact Form for Lab 2 Elise Ferguson" method="get" action="Lab2_SuccessForm.html">
+
+            <!-- Name Input -->
+            <div class="marginTextBoxes"
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" required>
+            <br> 
+
+            <!-- Email Input -->
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="email@gmail.com" required> 
+            <br>
+            </div>
+            
+            <input type="submit" value="Submit" background-color:rgb(51, 95, 146); >
+        </form>
+    </body>
+</html>
+    
